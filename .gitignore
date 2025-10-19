@@ -1,0 +1,52 @@
+# PHP Dependencies
+/vendor/
+
+# Environment Files
+.env
+.env.*
+!.env.example
+
+# Logs
+*.log
+
+# Cache
+*.cache
+
+# Docker volumes (if using Docker Compose)
+/db_data/
+
+# IDE
+/.vscode/
+/.idea/
+*.swp
+*.swo
+*~
+
+# OS Files
+.DS_Store
+Thumbs.db
+
+# Build artifacts
+/dist/
+/build/
+
+# Test coverage
+/coverage/
+
+# Temporary files
+*.tmp
+/tmp/
+
+# SilverStripe specific
+/public/assets/
+/public/_resources/
+/silverstripe-cache/
+/.graphql-generated/
+
+# Docker ignore
+docker-compose.override.yml
+
+.specify/
+*.md
+docs/
+specs/
